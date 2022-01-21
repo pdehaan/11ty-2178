@@ -9,8 +9,12 @@
   },
   tags: ['post'],
   eleventyComputed: {
-    permalink: (data) => {
-      return data.pg.systemProperties.url;
+    permalink(data) {
+      let permalink = data.pg.systemProperties.url;
+      if (!permalink.endsWith("/")) {
+        permalink += "/";
+      }
+      return permalink;
     },
   }
 }
