@@ -1,0 +1,21 @@
+---js
+{
+  layout: "layouts/base.html",
+  pagination: {
+    data: "pages",
+    alias: "pg",
+    size: 1,
+    addAllPagesToCollections: true
+  },
+  tags: ['post'],
+  eleventyComputed: {
+    permalink: (data) => {
+      return data.pg.systemProperties.url;
+    },
+  }
+}
+---
+
+<h1>{{ pg.systemProperties.name }}</h1>
+
+{{ pg.content.body | safe }}

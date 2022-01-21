@@ -1,0 +1,58 @@
+[
+    {
+      "content": {
+        "body": "Homepage"
+      },
+      "systemProperties": {
+        "id": 1069,
+        "name": "Home",
+        "createDate": "2021-06-09T12:17:48.38Z",
+        "updateDate": "2022-01-07T10:23:59.34Z",
+        "contentTypeAlias": "homePage",
+        "url": "/",
+        "urlSegment": "home"
+      }
+    },
+    {
+      "content": {
+        "body": "page one"
+      },
+      "systemProperties": {
+        "id": 1070,
+        "name": "Page 1",
+        "createDate": "2021-06-09T12:17:48.38Z",
+        "updateDate": "2022-01-07T10:23:59.34Z",
+        "contentTypeAlias": "contentPage",
+        "url": "/page-1",
+        "urlSegment": "page-1"
+      }
+    },
+    {
+      "content": {
+        "body": "Page 2"
+      },
+      "systemProperties": {
+        "id": 1071,
+        "name": "Page 2",
+        "createDate": "2021-06-09T12:17:48.38Z",
+        "updateDate": "2022-01-07T10:23:59.34Z",
+        "contentTypeAlias": "contentPage",
+        "url": "/page-2",
+        "urlSegment": "page-2"
+      }
+    },
+    {
+      "content": {
+        "body": "Page number 3"
+      },
+      "systemProperties": {
+        "id": 1072,
+        "name": "Page 3",
+        "createDate": "2021-06-09T12:17:48.38Z",
+        "updateDate": "2022-01-07T10:23:59.34Z",
+        "contentTypeAlias": "contentPage",
+        "url": "/page-3",
+        "urlSegment": "page-3"
+      }
+    }
+  ]

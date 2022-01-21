@@ -1,0 +1,16 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+permalink: "/{{ tag | slug }}/index.html"
+---
+
+<h1>Tag: {{ tag }}</h1>
+
+<ol>
+  {% set taglist = collections[ tag ] %}
+  {% for post in taglist | reverse %}
+  <li><a href="{{ post.url | url }}">{{ post.data.pg.systemProperties.name }}</a></li>
+  {% endfor %}
+</ol>
